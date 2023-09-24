@@ -1,7 +1,9 @@
 import React from 'react';
-import css from './Statistics.module.css'
+import css from './Statistics.module.css';
 const Statistics = ({
-  feedback: { good, neutral, bad },
+  good,
+  neutral,
+  bad,
   positiveFeedback,
   totalFeedback,
 }) => {
