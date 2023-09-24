@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #565e67;
+  font-weight: 400;
+}
